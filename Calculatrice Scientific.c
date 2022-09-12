@@ -174,6 +174,9 @@ void logBase10()
     
     printf("\nResult = %lf", log10(a));
     }
+    
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 // Function to calculate e^x
@@ -184,6 +187,8 @@ void expon()
     scanf("%lf", &a);
     
     printf("\nResult = %lf", exp(a));
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 // Function to find the Square Root of a Number
@@ -200,6 +205,8 @@ void racine_carree()
     {
     printf("\nResult = %lf", sqrt(n));
     }
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 // Function to find the Cube Root of a Number
@@ -209,6 +216,9 @@ void racine_cube()
     printf("\nEnter a number: ");
     scanf("%d",&n);
     printf("\nResult = %lf",  cbrt(n));
+    
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 // Function to find the Power of a Number
@@ -221,6 +231,9 @@ void puissance()
     scanf("%lf", &expo);
     
     printf("%.1lf^%.1lf = %.2lf", base, expo, pow(base, expo));
+    
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 // Function to find the Absolute Value of a Number
@@ -231,6 +244,10 @@ void valeur_absolut()
     scanf("%lld",&n);
     
     printf("\nResult = %lld", abs(n));
+    
+    
+    printf("\nAppuiller sur un button pour continuer .... ");
+	getch();
 }
 
 
@@ -295,6 +312,7 @@ int main (){
 
             default:
                     printf("\nChoix Invalide");	
+                    getch();
     	}
     	if(l == 1){
     		printf("\n Au revoir");
