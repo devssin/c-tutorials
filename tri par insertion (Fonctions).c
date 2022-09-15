@@ -4,7 +4,6 @@ void swap(int * x, int * y){
 	*x = *y;
 	*y = temp;
 }
-
 void insertionSort(int arr[], int size){
 	int i, j, current;
 	for(i =0; i < size ; i++){
@@ -26,7 +25,6 @@ fillArray(int arr[],int size){
 		scanf("%d", &arr[i]);
 	}
 }
-
 void printArray(int arr[],int size){
 	int i;
 	for(i = 0; i <size; i++){
@@ -46,5 +44,4 @@ int main(){
 	insertionSort(numbers,taille);
 	printf("\nApres Tri: ");
 	printArray(numbers,taille);
-
 }
