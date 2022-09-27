@@ -50,12 +50,12 @@ int main(){
 						persons[j + 1] = temp;
 					}
 				}
+			}
 				break;
 			default:
 				printf("Choix invalid Recommancer \n");	
 				break;
 		
-			}
 		}
 				
 	}while(op != 1 && op != 2);	

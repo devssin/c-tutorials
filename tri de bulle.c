@@ -16,7 +16,7 @@ int main(){
 	}	
 	for(i = 0; i < taille ; i++){
 		for(j = 0 ; j < taille  - 1 ; j++){
-			if(numbers[j + 1]  < numbers[j]){
+			if(numbers[j ]  > numbers[j+1]){
 				swap(&numbers[j+1],&numbers[j]);
 			}
 		}
